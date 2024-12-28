@@ -40,5 +40,6 @@ public class MatrixArithmeticMean {
 
         // Output the result
         System.out.println("The arithmetic mean of the strictly positive elements below the main diagonal is: " + result);
+        
     }
 }
