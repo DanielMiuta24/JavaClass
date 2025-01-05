@@ -1,7 +1,7 @@
 /*Write a program that reads a non-zero natural number n with at most 4 digits and determines the smallest prime number greater than n */
 import java.util.Scanner;
 
-public class Main {
+public class isPrime {
 
     
     public static boolean isPrime(int num) {
