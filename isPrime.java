@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class isPrime {
 
     
-    public static boolean isPrime(int num) {
+    public static boolean isPrimeNum(int num) {
         if (num <= 1) {
             return false;
         }
@@ -22,10 +22,10 @@ public class isPrime {
        
         System.out.print("Enter a natural number (with at most 4 digits): ");
         int n = scanner.nextInt();
-
+         scanner.close();
        
         int number = n + 1;
-        while (!isPrime(number)) {
+        while (!isPrimeNum(number)) {
             number++;
         }
 
