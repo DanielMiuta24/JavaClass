@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Launch Java Program",
+        "request": "launch",
+        "mainClass": ""
+      },
+        
+      {
+        "type": "java",
+        "request": "launch",
+        "name": "HeatmapGenerator",
+        "mainClass": "your.package.MainApp",
+        "vmArgs": "--module-path ${workspaceFolder}/lib --add-modules javafx.controls,javafx.fxml",
+        "console": "integratedTerminal",
+        "stopOnEntry": false
+      }
+    ]
+  }
+  
