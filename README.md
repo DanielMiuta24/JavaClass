@@ -200,7 +200,6 @@ This project is a **real-time collaborative drawing application** built using **
 
 
 
----
 
 
 
