@@ -156,7 +156,7 @@ This project is a **real-time collaborative drawing application** built using **
       }
   });
  ```
-
+---
 ### ✅ 12. **Searching Algorithm**
 - Searching is implemented in the `userExists(String username)` method inside the server-side authentication logic.
 - The method checks whether a given username exists in the users table using SQL:
