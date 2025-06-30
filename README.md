@@ -155,7 +155,7 @@ This project is a **real-time collaborative drawing application** built using **
           clearCanvas();
       }
   });
- ```
+
 ---
 ### ✅ 12. **Searching Algorithm**
 - Searching is implemented in the `userExists(String username)` method inside the server-side authentication logic.
