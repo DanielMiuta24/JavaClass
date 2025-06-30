@@ -155,6 +155,16 @@ This project is a **real-time collaborative drawing application** built using **
           clearCanvas();
       }
   });
+
+  ### ✅ 12. **Searching Algorithm**
+- Searching is implemented in the `userExists(String username)` method inside the server-side authentication logic.
+- The method checks whether a given username exists in the users table using SQL:
+  ```java
+  String sql = "SELECT 1 FROM users WHERE username = ?";
+  PreparedStatement stmt = connection.prepareStatement(sql);
+  stmt.setString(1, username);
+  return stmt.executeQuery().next();
+
   ```
 
 
