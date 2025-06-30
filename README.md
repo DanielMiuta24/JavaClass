@@ -202,21 +202,6 @@ This project is a **real-time collaborative drawing application** built using **
 
 ---
 
-## 📂 Project Structure Overview
 
-```
-Java-Swing-Paint-App-with-Sockets/
-├── client/
-│   ├── PaintForm.java             # Main JFrame and UI
-│   ├── DrawingTools.java          # Handles drawing logic
-│   ├── FileDialogHandler.java     # Handles file open/save
-├── server/
-│   ├── WebSocketServerHandler.java  # Handles user sessions and messaging
-│   └── UserDatabaseManager.java     # Manages user auth (in-memory)
-├── resources/
-│   └── icons/                     # PNG icons for buttons
-```
-
----
 
 
